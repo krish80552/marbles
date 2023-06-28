@@ -87,11 +87,14 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 70px;
-  z-index: 997;
-  transition: all 0.5s;
-  background: #000;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Add this line */
+}
+
+#header .logo {
+  display: flex;
+  align-items: center;
 }
 
 #header .logo h1 {
@@ -101,12 +104,8 @@ h6 {
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-}
-
-#header .logo h1 a,
-#header .logo h1 a:hover {
   color: #fff;
-  text-decoration: none;
+  margin-left: 10px; /* Adjust the margin as per your preference */
 }
 
 #header .logo img {
@@ -115,9 +114,6 @@ h6 {
   max-height: 40px;
 }
 
-.scrolled-offset {
-  margin-top: 70px;
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -654,7 +650,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background:url("../img/Banner-3.jpg") fixed center center;
+  background: url("../img/Banner-3.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
