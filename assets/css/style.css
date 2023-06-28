@@ -92,8 +92,6 @@ h6 {
   transition: all 0.5s;
   background: #000;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
-  display: flex;
-  align-items: center;
 }
 
 #header .logo h1 {
@@ -103,22 +101,23 @@ h6 {
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #fff;
-  display: flex;
-  align-items: center;
 }
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
+  color: #fff;
   text-decoration: none;
 }
 
 #header .logo img {
   padding: 0;
-  margin-right: 10px; /* Adjust the margin as per your preference */
+  margin: 0;
   max-height: 40px;
 }
 
+.scrolled-offset {
+  margin-top: 70px;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
