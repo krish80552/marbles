@@ -347,7 +347,8 @@ img, svg {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/Banner-1.jpg") top center;
+  background: url("../img/main.jpeg") top center;
+  background-color: #444444;
   background-size: cover;
   position: relative;
   border-bottom: 1px solid #222;
